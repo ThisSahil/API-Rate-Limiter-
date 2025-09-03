@@ -4,12 +4,12 @@ import crypto from "crypto";
 
 const router = express.Router();
 
-// 🔹 Generate new API key
+//  Generate new API key
 router.post("/keys", async (req, res) => {
   try {
     const { app_name, rate_limit_per_minute, daily_quota } = req.body;
 
-    const key_value = crypto.randomBytes(16).toString("hex"); // random key
+    const key_value = crypto.randomBytes(16).toString("hex");
 
     const apiKey = await ApiKey.create({
       key_value,
@@ -24,7 +24,7 @@ router.post("/keys", async (req, res) => {
   }
 });
 
-// 🔹 List all API keys
+//  List all API keys
 router.get("/keys", async (req, res) => {
   try {
     const keys = await ApiKey.find();
@@ -34,7 +34,7 @@ router.get("/keys", async (req, res) => {
   }
 });
 
-// 🔹 Update an API key
+//  Update an API key
 router.put("/keys/:id", async (req, res) => {
   try {
     const { id } = req.params;
@@ -50,7 +50,7 @@ router.put("/keys/:id", async (req, res) => {
   }
 });
 
-// 🔹 Delete (revoke) an API key
+//  Delete (revoke) an API key
 router.delete("/keys/:id", async (req, res) => {
   try {
     const { id } = req.params;
