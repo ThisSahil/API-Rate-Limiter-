@@ -152,6 +152,35 @@ VITE_API_BASE_URL=http://localhost:5000/api
 
 ---
 
+
+## 🖼️ Screenshots
+
+### API Keys Management
+
+<img width="1884" height="703" alt="image" src="https://github.com/user-attachments/assets/8fee8ad5-be83-4f73-8c8b-a7c04f2fb46a" />
+
+
+### Usage Analytics
+
+<img width="1183" height="317" alt="image" src="https://github.com/user-attachments/assets/c3db83d2-b451-403e-9595-077facb577f5" />
+
+
+### Usage Charts
+
+<img width="1360" height="559" alt="image" src="https://github.com/user-attachments/assets/d2dbf3b1-b01d-4270-8d28-cc86c945c60f" />
+
+
+### Blocked IPs
+
+<img width="1129" height="387" alt="image" src="https://github.com/user-attachments/assets/ef967d77-36e7-4b60-9cab-ce7ac1fed51b" />
+
+
+### Live Monitoring
+
+<img width="1299" height="380" alt="image" src="https://github.com/user-attachments/assets/aa156832-76dc-459c-b9c1-b4d9fec3bda1" />
+
+---
+
 ### 👨‍💻 Author
 - Built by **Sahil Chhabra** 🚀
 - Role: Software Engineer
